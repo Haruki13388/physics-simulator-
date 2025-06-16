@@ -36,3 +36,16 @@ export default function PhysicsSimulator() {
     </Canvas>
   );
 }
+// src/App.js
+import React from "react";
+import PhysicsSimulator from "./PhysicsSimulator";
+
+function App() {
+  return (
+    <div style={{ width: "100vw", height: "100vh" }}>
+      <PhysicsSimulator />
+    </div>
+  );
+}
+
+export default App;
