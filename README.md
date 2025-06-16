@@ -49,3 +49,16 @@ function App() {
 }
 
 export default App;
+import React from "react";
+import PhysicsSimulator from "./PhysicsSimulator";
+
+function App() {
+  return (
+    <div style={{ width: "100vw", height: "100vh" }}>
+      <PhysicsSimulator />
+    </div>
+  );
+}
+
+export default App;
+npm start
